@@ -560,6 +560,11 @@ main {
                 border-radius: 5px;
                 border-color: #ccc;
                 box-shadow: 0 0 5px #ccc;
+
+                @media (max-width:551px) {
+                    padding: 5px 10px;
+
+                }
             }
 
             /* Btn IN section */
@@ -579,6 +584,12 @@ main {
                     font-weight: bold;
                     border-radius: 5px;
                     background-color: var(--mainColor);
+
+                    @media (max-width:551px) {
+                        padding: 5px 3px;
+                        font-weight: 600;
+
+                    }
                 }
             }
 
